@@ -28,7 +28,7 @@
     </div>
 </div>
 <div class="container">
-    <div class="card d-none" style="opacity: 0.2" id="searchResult">
+    <div class="card d-none" style="opacity: 0.9" id="searchResult">
         <div class="card-body">
             <table id="example" class="table table-bordered table-hover" style="width:100%">
                 <thead>
