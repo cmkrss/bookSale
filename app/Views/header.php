@@ -5,13 +5,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+        <script>
+           var beep5 =new Audio();
+           beep5.src ='beep5.mp3';
+</script>
 </head>
 <body>
     <div class="menu-bar">
         <ul>
        
-            <li class=""><a href="<?php echo base_url('index.php/Home/home') ?>"><i class="fa fa-home fa-2x" aria-hidden="true"></i><b>Home</b></a></li>
+            <li class=""><a href="<?php echo base_url('index.php/Home/home') ?>"onmousedown="beep5.play();"><i class="fa fa-home fa-2x" aria-hidden="true"></i><b>Home</b></a></li>
             <li><a href="#"><i class="fa fa-users fa-2x" aria-hidden="true"></i><b>Customers</b></a>
                 <div class="sub-menu-1">
                     <ul>

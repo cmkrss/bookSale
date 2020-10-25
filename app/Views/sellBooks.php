@@ -14,7 +14,7 @@ if ($session->registered == "no") {
     color:white !important;
 } */
 </style>
-    <div class="container">
+    <div class="container" style="opacity: 0.9">
         <div class="space">
             
         </div>
